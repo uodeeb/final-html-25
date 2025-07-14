@@ -54,6 +54,44 @@
     flex: 4;
 }
 
-/* .dd {
+/* --------------------Media Queries -------------------- */
+/* ------------------------Small Screen---------------- */
+@media screen and (max-width: 600px){
+#container {
+    background-color: burlywood;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 15vh auto 20vh 15vh;
+    grid-template-columns: 100vw;
+    grid-template-areas: 
+    "hd"
+    "mn"
+    "sd"
+    "ft"
+    ;
+}
 
-} */
+
+}
+
+/* ------------------------Medium Screen----------- */
+@media screen and (min-width: 601px) and (max-width: 1024px){
+    #container {
+    background-color: burlywood;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 15vh auto 20vh 15vh;
+    grid-template-columns: 100vw;
+    grid-template-areas: 
+    "hd"
+    "mn"
+    "sd"
+    "ft"
+    ;
+}
+
+
+}
+/* ------------------------Large Screen---------------- */
