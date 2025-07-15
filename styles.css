@@ -26,6 +26,9 @@
 #mn {
    background-color: rgb(47, 150, 7); 
    grid-area: mn;
+   background-image: url('/images/bg-pattern.jpeg');
+   background-repeat: no-repeat;
+    background-size: cover;
 }
 #sd {
     background-color: rgb(212, 185, 12);
